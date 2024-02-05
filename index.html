@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Blackjack</h1>
+        <p id="message-el">Want to play a round?</p>
+        <div id="dealers-hand">
+            <p>Dealer's Hand</p>
+            <p id="dealerCards-el">Cards:</p>
+            <p id="dealerSum-el">Sum:</p>
+        </div>
+        <div id="players-hand">
+            <p>Player's Hand</p>
+            <p id="playerCards-el">Cards:</p>
+            <p id="playerSum-el">Sum:</p>
+            <input id= "wager" class="wager" type ="number">Player Wager: </input>
+            <button onclick="startGame()">START GAME</button>
+            <button onclick="newCard()">NEW CARD</button>
+            <button onclick="stay()">STAY</button>
+        </div>
+        <p id="player-el"></p>
+        <script src="index.js"></script>
+    </body>
+</html>
